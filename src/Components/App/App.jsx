@@ -37,10 +37,10 @@ export default class App extends Component {
                   <Route exact path="/planets" component = {PlanetPage} />
                   <Route exact path="/starships" component = {StarshipsPage} />
                   <Route exact path="/" component = {Welcome}/>
-                  <Route exact path="/starwars" component = {Welcome}/>
                   <Route render = {() => (<h2 className = {S.notFound}>Page not found</h2>)}/>
               </Switch>
               </div>
+
                   <Footer></Footer>
               </BrowserRouter>
           </div>
