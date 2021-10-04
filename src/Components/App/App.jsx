@@ -40,7 +40,7 @@ export default class App extends Component {
                   <Route render = {() => (<h2 className = {S.notFound}>Page not found</h2>)}/>
               </Switch>
               </div>
-
+              <div>gwrg</div>
                   <Footer></Footer>
               </BrowserRouter>
           </div>
