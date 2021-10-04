@@ -1,0 +1,20 @@
+.leftSection {
+  width: 310px;
+  text-align: center;
+}
+
+.rightSection {
+  width: 420px;
+}
+
+@media (max-width: 440px) {
+  .rightSection {
+    width: 360px;
+  }
+}
+
+@media (max-width: 375px) {
+  .rightSection {
+    width: 300px;
+  }
+}

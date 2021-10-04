@@ -1,0 +1,42 @@
+.container {
+  width: 320px;
+}
+
+h2 {
+  font-size: 50px;
+}
+img {
+  width: 165px;
+}
+.welcome {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.warning {
+  margin-top: 30px;
+  border: 2px solid #00bc8c;
+  margin-bottom: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: 35%;
+  color: #f8c70f;
+  text-transform: capitalize;
+}
+.welcome p {
+  font-size: 18px;
+  width: 320px;
+}
+
+.warning div {
+  margin-top: 10px;
+}
+
+@media (max-width: 490px) {
+  .welcome div:last-child {
+    display: none;
+  }
+}

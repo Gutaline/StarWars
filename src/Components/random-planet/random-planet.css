@@ -1,0 +1,51 @@
+.background {
+  display: flex;
+  border-bottom: 1px solid#00bc8c;
+  width: 40%;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #252525;
+  height: 150px;
+}
+.random-planet {
+  margin: 20px 0;
+}
+
+.random-planet .planet-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  margin-right: 1rem;
+}
+
+.planet-details {
+  margin: 0 auto;
+}
+
+.random-planet h4 {
+  font-size: 25px;
+  margin-left: -20px;
+}
+
+.random-planet ul li span:last-child {
+  color: #00bc8c;
+}
+
+@media (max-width: 860px) {
+  .background {
+    width: 60%;
+  }
+}
+
+@media (max-width: 620px) {
+  .background {
+    flex-direction: column;
+    height: auto;
+  }
+  .random-planet .planet-image {
+    margin: 0 auto;
+  }
+  .random-planet h4 {
+    margin-left: 0px;
+  }
+}
