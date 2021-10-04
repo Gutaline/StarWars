@@ -11,7 +11,7 @@ export default class Header extends Component {
             
             <div className = {S.header + " " + S.flex}>
                 <h3>
-                    <a href="/#">
+                    <a href="/starwars/">
                     Home
                     </a>
                 </h3>
